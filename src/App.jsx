@@ -35,6 +35,7 @@ function Board({ xIsNext, squares, onPlay }) {
     }
     return null;
   };
+  // c;l
 
   const winner = calculateWinner(squares);
   let status;
